@@ -45,6 +45,12 @@
 }
 
 - (void)globalConfig {
+    
+    
+    
+    
+    // abcdefg
+    
     [IQKeyboardManager sharedManager].shouldShowTextFieldPlaceholder = NO;
     [IQKeyboardManager sharedManager].shouldResignOnTouchOutside = YES;
 }
