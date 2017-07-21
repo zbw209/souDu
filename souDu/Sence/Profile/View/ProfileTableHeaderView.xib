@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ProfileTableHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="473" height="501"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kid-Xt-duU">
+                    <rect key="frame" x="12" y="401" width="212" height="60"/>
+                    <connections>
+                        <action selector="loginButtonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="djh-Xd-ZBd"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="未登录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uVt-gf-9Y8">
+                    <rect key="frame" x="97" y="413" width="46" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.16470588235294117" green="0.1803921568627451" blue="0.19607843137254902" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="亲，您还没有登录哦~" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1TR-ck-eeZ">
+                    <rect key="frame" x="97" y="438" width="127" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.70196078431372544" green="0.73333333333333328" blue="0.76862745098039209" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_enter" translatesAutoresizingMaskIntoConstraints="NO" id="qgR-bS-3AQ">
+                    <rect key="frame" x="452" y="424.5" width="7" height="13"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="04-icon-Avatar" translatesAutoresizingMaskIntoConstraints="NO" id="7Uj-GS-7qW">
+                    <rect key="frame" x="12" y="401" width="60" height="60"/>
+                    <color key="backgroundColor" red="0.91372549020000005" green="0.92549019610000005" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="Dd6-Rg-GZH"/>
+                        <constraint firstAttribute="width" secondItem="7Uj-GS-7qW" secondAttribute="height" id="pm2-wW-aKf"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="1TR-ck-eeZ" firstAttribute="leading" secondItem="uVt-gf-9Y8" secondAttribute="leading" id="4JD-aU-Xob"/>
+                <constraint firstItem="Kid-Xt-duU" firstAttribute="bottom" secondItem="7Uj-GS-7qW" secondAttribute="bottom" id="8nt-F3-3rt"/>
+                <constraint firstItem="uVt-gf-9Y8" firstAttribute="leading" secondItem="7Uj-GS-7qW" secondAttribute="trailing" constant="25" id="F6d-V6-zJy"/>
+                <constraint firstItem="Kid-Xt-duU" firstAttribute="trailing" secondItem="1TR-ck-eeZ" secondAttribute="trailing" id="F8f-a6-rGY"/>
+                <constraint firstAttribute="bottom" secondItem="7Uj-GS-7qW" secondAttribute="bottom" constant="40" id="FWI-i9-yKF"/>
+                <constraint firstItem="Kid-Xt-duU" firstAttribute="leading" secondItem="7Uj-GS-7qW" secondAttribute="leading" id="Juu-6z-ZZA"/>
+                <constraint firstItem="7Uj-GS-7qW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="Kcs-ax-YHv"/>
+                <constraint firstItem="1TR-ck-eeZ" firstAttribute="top" secondItem="uVt-gf-9Y8" secondAttribute="bottom" constant="7" id="NTt-Cu-l2G"/>
+                <constraint firstItem="qgR-bS-3AQ" firstAttribute="centerY" secondItem="7Uj-GS-7qW" secondAttribute="centerY" id="W3B-3z-0cv"/>
+                <constraint firstAttribute="trailing" secondItem="qgR-bS-3AQ" secondAttribute="trailing" constant="14" id="WWT-6l-S2n"/>
+                <constraint firstItem="1TR-ck-eeZ" firstAttribute="bottom" secondItem="7Uj-GS-7qW" secondAttribute="bottom" constant="-7" id="jBV-XE-vct"/>
+                <constraint firstItem="Kid-Xt-duU" firstAttribute="top" secondItem="7Uj-GS-7qW" secondAttribute="top" id="l2j-Bb-LzD"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="avatarBottomLayout" destination="FWI-i9-yKF" id="Y9a-mB-9U9"/>
+            </connections>
+            <point key="canvasLocation" x="73.5" y="-38.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="04-icon-Avatar" width="60" height="60"/>
+        <image name="home_enter" width="7" height="13"/>
+    </resources>
+</document>

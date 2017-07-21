@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HomeHotInfoCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="454" height="110"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="454" height="110"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="信用卡|超实用的小白提额攻略" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0MV-Hj-HJj">
+                        <rect key="frame" x="12" y="14" width="300" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1天前  丨  1440人浏览" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFD-T7-KNs">
+                        <rect key="frame" x="12" y="77.5" width="121.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_peitu" translatesAutoresizingMaskIntoConstraints="NO" id="gcK-9H-i44">
+                        <rect key="frame" x="352" y="26" width="90" height="58"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="BZg-HM-Fig"/>
+                            <constraint firstAttribute="height" constant="58" id="iNB-Za-Iye"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="gcK-9H-i44" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="MHH-Fa-zPN"/>
+                <constraint firstItem="gcK-9H-i44" firstAttribute="leading" secondItem="0MV-Hj-HJj" secondAttribute="trailing" constant="40" id="SVy-Tq-9Ll"/>
+                <constraint firstItem="fFD-T7-KNs" firstAttribute="leading" secondItem="0MV-Hj-HJj" secondAttribute="leading" id="YNT-Vc-5Qk"/>
+                <constraint firstAttribute="trailing" secondItem="gcK-9H-i44" secondAttribute="trailing" constant="12" id="dHO-vN-lCp"/>
+                <constraint firstItem="0MV-Hj-HJj" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="12" id="mzx-Y1-hwK"/>
+                <constraint firstAttribute="bottom" secondItem="fFD-T7-KNs" secondAttribute="bottom" constant="18" id="nk2-3f-2TI"/>
+                <constraint firstItem="0MV-Hj-HJj" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="14" id="y3v-EO-bJu"/>
+            </constraints>
+            <size key="customSize" width="454" height="150"/>
+            <connections>
+                <outlet property="imageView" destination="gcK-9H-i44" id="rhL-kJ-p2j"/>
+            </connections>
+            <point key="canvasLocation" x="6" y="-8"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="home_peitu" width="117" height="73"/>
+    </resources>
+</document>

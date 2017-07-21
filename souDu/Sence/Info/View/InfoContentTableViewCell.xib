@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="InfoContentTableViewCell" rowHeight="94" id="Cdb-jd-BNv" customClass="InfoContentTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="94"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Cdb-jd-BNv" id="RZm-Cj-NF0">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="93.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017-07-18" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a1e-Qp-8LJ">
+                        <rect key="frame" x="17" y="67" width="66" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5Of-jZ-UMa">
+                        <rect key="frame" x="273" y="18" width="90" height="58"/>
+                        <color key="backgroundColor" red="0.16862745100000001" green="0.38431372549999998" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="t5p-ZB-HIW"/>
+                            <constraint firstAttribute="height" constant="58" id="wOT-u2-ebP"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="分享：6个贷款融资小技巧" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CwO-Sd-Tcg">
+                        <rect key="frame" x="17" y="15" width="236" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SA5-dt-b1T">
+                        <rect key="frame" x="17" y="0.0" width="358" height="1"/>
+                        <color key="backgroundColor" red="0.9137254901960784" green="0.92549019607843142" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="2Ub-0L-ZBl"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5Of-jZ-UMa" firstAttribute="leading" secondItem="CwO-Sd-Tcg" secondAttribute="trailing" constant="20" id="13w-1u-sYW"/>
+                    <constraint firstItem="SA5-dt-b1T" firstAttribute="leading" secondItem="CwO-Sd-Tcg" secondAttribute="leading" id="2RI-KZ-x2z"/>
+                    <constraint firstItem="CwO-Sd-Tcg" firstAttribute="top" secondItem="RZm-Cj-NF0" secondAttribute="top" constant="15" id="GvH-LA-7tf"/>
+                    <constraint firstItem="5Of-jZ-UMa" firstAttribute="centerY" secondItem="RZm-Cj-NF0" secondAttribute="centerY" id="Q7f-nQ-7BJ"/>
+                    <constraint firstAttribute="trailing" secondItem="5Of-jZ-UMa" secondAttribute="trailing" constant="12" id="WBh-78-zBc"/>
+                    <constraint firstAttribute="bottom" secondItem="a1e-Qp-8LJ" secondAttribute="bottom" constant="12" id="bGY-9r-A1K"/>
+                    <constraint firstItem="SA5-dt-b1T" firstAttribute="top" secondItem="RZm-Cj-NF0" secondAttribute="top" id="cQt-eB-KFm"/>
+                    <constraint firstAttribute="trailing" secondItem="SA5-dt-b1T" secondAttribute="trailing" id="f5O-cq-MFq"/>
+                    <constraint firstItem="a1e-Qp-8LJ" firstAttribute="leading" secondItem="RZm-Cj-NF0" secondAttribute="leading" constant="17" id="tEf-Ep-1C0"/>
+                    <constraint firstItem="CwO-Sd-Tcg" firstAttribute="leading" secondItem="RZm-Cj-NF0" secondAttribute="leading" constant="17" id="zYi-FH-ECe"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="24.5" y="52"/>
+        </tableViewCell>
+    </objects>
+</document>
