@@ -1,15 +1,15 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BD15A0E8E145035EBBDA8CBC8CBA30C3D784DF66",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8AED7E4213A32C3EFD7E042907A146A8F6B799F2",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "BD15A0E8E145035EBBDA8CBC8CBA30C3D784DF66" : 9223372036854775807,
+    "8AED7E4213A32C3EFD7E042907A146A8F6B799F2" : 9223372036854775807,
     "1AD5F451C6CE0A365680BEFBCCCB4BAF65096112" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BD6222B9-B6F8-4B28-874D-E2A304720695",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "BD15A0E8E145035EBBDA8CBC8CBA30C3D784DF66" : "souDu\/",
+    "8AED7E4213A32C3EFD7E042907A146A8F6B799F2" : "souDu\/",
     "1AD5F451C6CE0A365680BEFBCCCB4BAF65096112" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "souDu",
@@ -22,9 +22,9 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1AD5F451C6CE0A365680BEFBCCCB4BAF65096112"
     },
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zbw209\/souDu.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zbw209\/soDu.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BD15A0E8E145035EBBDA8CBC8CBA30C3D784DF66"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8AED7E4213A32C3EFD7E042907A146A8F6B799F2"
     }
   ]
 }
