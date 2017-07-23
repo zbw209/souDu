@@ -20,7 +20,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"登录";
-    
 }
 
 - (IBAction)quitButtonPressed:(id)sender {

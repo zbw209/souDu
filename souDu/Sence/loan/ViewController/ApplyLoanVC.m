@@ -50,7 +50,7 @@
     
     model.expand = !model.expand;
     if (model.expand) {
-        [self.tableView insertRowsAtIndexPaths:[self indexPathsInSection:section rowCount:model.subNodeCount] withRowAnimation:UITableViewRowAnimationFade];
+        [self.tableView insertRowsAtIndexPaths:[self indexPathsInSection:section rowCount:model.subNodeCount] withRowAnimation:UITableViewRowAnimationNone];
         
         [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:model.subNodeCount - 1 inSection:section] atScrollPosition:UITableViewScrollPositionTop animated:YES];
     }else {

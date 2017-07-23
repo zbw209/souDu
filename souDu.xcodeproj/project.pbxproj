@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		632B7C8C1F222E270098E71C /* PersonalInfoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 632B7C8B1F222E270098E71C /* PersonalInfoViewModel.m */; };
+		632B7C8F1F2238E20098E71C /* PersonalInfoBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 632B7C8E1F2238E20098E71C /* PersonalInfoBaseCell.m */; };
+		632B7C921F2239290098E71C /* InputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 632B7C911F2239290098E71C /* InputCell.m */; };
+		632B7C951F22393B0098E71C /* SelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 632B7C941F22393B0098E71C /* SelectCell.m */; };
 		651689AB1F1859E600ED1A4B /* InfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 651689AA1F1859E600ED1A4B /* InfoVC.m */; };
 		651689AE1F185B2000ED1A4B /* InfoDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 651689AD1F185B2000ED1A4B /* InfoDetailVC.m */; };
 		651689B51F185FE800ED1A4B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 651689B21F185FE800ED1A4B /* MBProgressHUD.m */; };
@@ -166,6 +170,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		632B7C8A1F222E270098E71C /* PersonalInfoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalInfoViewModel.h; sourceTree = "<group>"; };
+		632B7C8B1F222E270098E71C /* PersonalInfoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalInfoViewModel.m; sourceTree = "<group>"; };
+		632B7C8D1F2238E20098E71C /* PersonalInfoBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalInfoBaseCell.h; sourceTree = "<group>"; };
+		632B7C8E1F2238E20098E71C /* PersonalInfoBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalInfoBaseCell.m; sourceTree = "<group>"; };
+		632B7C901F2239290098E71C /* InputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCell.h; sourceTree = "<group>"; };
+		632B7C911F2239290098E71C /* InputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCell.m; sourceTree = "<group>"; };
+		632B7C931F22393B0098E71C /* SelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectCell.h; sourceTree = "<group>"; };
+		632B7C941F22393B0098E71C /* SelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectCell.m; sourceTree = "<group>"; };
 		651689A91F1859E600ED1A4B /* InfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoVC.h; sourceTree = "<group>"; };
 		651689AA1F1859E600ED1A4B /* InfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoVC.m; sourceTree = "<group>"; };
 		651689AC1F185B2000ED1A4B /* InfoDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoDetailVC.h; sourceTree = "<group>"; };
@@ -811,6 +823,8 @@
 			children = (
 				65B3B5551F162DDC000D1F34 /* ApplyLoanTableSectionModel.h */,
 				65B3B5561F162DDC000D1F34 /* ApplyLoanTableSectionModel.m */,
+				632B7C8A1F222E270098E71C /* PersonalInfoViewModel.h */,
+				632B7C8B1F222E270098E71C /* PersonalInfoViewModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -827,6 +841,12 @@
 				65F8F73B1F1DFC2C00FBE9A2 /* LoanContentCell.h */,
 				65F8F73C1F1DFC2C00FBE9A2 /* LoanContentCell.m */,
 				65F8F73D1F1DFC2C00FBE9A2 /* LoanContentCell.xib */,
+				632B7C8D1F2238E20098E71C /* PersonalInfoBaseCell.h */,
+				632B7C8E1F2238E20098E71C /* PersonalInfoBaseCell.m */,
+				632B7C901F2239290098E71C /* InputCell.h */,
+				632B7C911F2239290098E71C /* InputCell.m */,
+				632B7C931F22393B0098E71C /* SelectCell.h */,
+				632B7C941F22393B0098E71C /* SelectCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1409,6 +1429,7 @@
 				651689AB1F1859E600ED1A4B /* InfoVC.m in Sources */,
 				65F731FB1F15C3E100101794 /* MJRefreshBackNormalFooter.m in Sources */,
 				654BB76C1F14CA0A00155501 /* NSImage+WebCache.m in Sources */,
+				632B7C8F1F2238E20098E71C /* PersonalInfoBaseCell.m in Sources */,
 				65F732221F15CCB700101794 /* SDCollectionViewCell.m in Sources */,
 				654BB7641F14CA0A00155501 /* AFHTTPSessionManager.m in Sources */,
 				65F732231F15CCB700101794 /* SDCycleScrollView.m in Sources */,
@@ -1455,6 +1476,7 @@
 				654BB76B1F14CA0A00155501 /* NSData+ImageContentType.m in Sources */,
 				65F732011F15C3E100101794 /* MJRefreshConst.m in Sources */,
 				654BB77A1F14CA0A00155501 /* UIImageView+WebCache.m in Sources */,
+				632B7C8C1F222E270098E71C /* PersonalInfoViewModel.m in Sources */,
 				654BB7731F14CA0A00155501 /* SDWebImageManager.m in Sources */,
 				65F732341F1600F500101794 /* ApplyLoanVC.m in Sources */,
 				651689B51F185FE800ED1A4B /* MBProgressHUD.m in Sources */,
@@ -1476,9 +1498,11 @@
 				65DC4BC51F1C6500003B44FB /* SettingVC.m in Sources */,
 				65F7322F1F15FC8F00101794 /* BaseNavigationVC.m in Sources */,
 				65DC4BD31F1CC6A8003B44FB /* YYWeakProxy.m in Sources */,
+				632B7C921F2239290098E71C /* InputCell.m in Sources */,
 				65F732241F15CCB700101794 /* UIView+SDExtension.m in Sources */,
 				65DF4EB71F15BBFD00A21735 /* UserCenter.m in Sources */,
 				65290D5B1F17067B002BD84D /* IQToolbar.m in Sources */,
+				632B7C951F22393B0098E71C /* SelectCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
